@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fre));
+    gap: 1rem;
+    align-items: flex-start;
+  }
+}
