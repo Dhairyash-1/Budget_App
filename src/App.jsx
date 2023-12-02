@@ -8,7 +8,7 @@ import { UNCATEGORIZED_BUDGET_ID } from './context/BudgetsContext'
 import UnCategorizedBudgetCard from './components/UnCategorizedBudgetCard'
 import TotalBudgetCard from './components/TotalBudgetCard'
 import ViewExpanseModal from './components/ViewExpenseModal'
-import EditBudgetModal from './components/editBudgetModal'
+import EditBudgetModal from './components/EditBudgetModal'
 import EditExpenseModal from './components/EditExpenseModal'
 
 function App() {
