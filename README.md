@@ -30,7 +30,7 @@ This project is a simple budget management application built using React.js, Con
 
 ## Live Demo
 
-[Check out the live demo here](https://your-live-demo-link.com)
+[Check out the live demo here](dhairyash-1.github.io/Budget_App/)
 
 ## Getting Started
 
