@@ -1,8 +1,43 @@
-# React + Vite
+# Budget App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple budget management application built using React.js, Context API for state management, and Bootstrap for styling. It allows users to track their budgets and expenses, as well as perform various operations such as adding, editing, and deleting budgets and expenses.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Add Budget:**
+
+   - Users can create a new budget by providing a name and setting a maximum amount.
+
+2. **Add Expense:**
+
+   - Expenses can be added with a description, amount, and category, within a specific budget.
+
+3. **Delete Budget and Expense:**
+
+   - Users have the ability to delete both budgets and individual expenses.
+
+4. **Edit Budget:**
+
+   - Budget details, such as name and maximum amount, can be edited.
+
+5. **Edit Expense:**
+   - Users can modify the details of individual expenses, including description, amount, and category.
+
+## Screenshots
+
+![Budget App Screenshot](/public/screenshot.png)
+![](/public/screenshot2.png)
+
+## Live Demo
+
+[Check out the live demo here](https://your-live-demo-link.com)
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/budget-app.git
+   ```
