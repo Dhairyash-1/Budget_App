@@ -1,7 +1,7 @@
 # React Budget App
 
 <p align="center">
-  <img src="./public/screenshot.png" alt="Budget App Screenshot" width="80%">
+  <img src="./public/Screenshot.png" alt="Budget App Screenshot" width="80%">
 </p>
 
 ## Overview
