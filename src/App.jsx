@@ -26,13 +26,19 @@ function App() {
     setAddExpenseModalBudgetId(budgetId)
     console.log(budgetId, typeof budgetId)
   }
-  const containerStyle = {
+  const gridContainer = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
     gap: '2rem',
     alignItems: 'flex-start',
   }
-
+  const flexBox = {
+    minHeight: '80vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }
+  console.log(budgets)
   return (
     <>
       <Container className='my-4'>
@@ -50,7 +56,8 @@ function App() {
           </Button>
         </Stack>
 
-        <div style={containerStyle}>
+        <div style={budgets.length === 0 ? flexBox : gridContainer}>
+          {budgets.length === 0 && <h1>No Budgets</h1>}
           {budgets.map(budget => {
             const amount = getBudgetExpenses(budget.id).reduce(
               (total, expense) => total + expense.amount,

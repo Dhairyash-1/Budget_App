@@ -39,7 +39,7 @@ Welcome to the Budget App, a feature-rich budget management application built us
 
 ## Live Demo
 
-Explore the live demo [here](https://dhairyash-1.github.io/Budget_App/).
+Explore the live demo [here](https://meek-crepe-a3bdc7.netlify.app/).
 
 ## Getting Started
 
